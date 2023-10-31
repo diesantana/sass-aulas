@@ -1,0 +1,43 @@
+$bg: #74a6b0;
+
+
+
+.container{
+    width: 400px;
+    background-color: blue;
+    $cor-text: orange !global;
+    .header{
+        background-color: #3498db;
+        color: #fff;
+        
+        h1{
+            margin: 0;
+        }
+    }
+    
+    .content{
+        padding: 20px;
+        
+        p{
+            color: blue;
+        }
+
+        a{
+            color: #000;
+            text-decoration: none;
+            transition: .5s;
+            
+            &:hover{
+                color: red;
+            }
+        }
+    }
+}
+
+.container-2{
+    background-color: $bg;
+    h1{
+        color: $cor-text;
+    }
+
+}

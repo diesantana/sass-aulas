@@ -1,0 +1,34 @@
+.container {
+  width: 400px;
+  background-color: blue;
+}
+.container .header {
+  background-color: #3498db;
+  color: #fff;
+}
+.container .header h1 {
+  margin: 0;
+}
+.container .content {
+  padding: 20px;
+}
+.container .content p {
+  color: blue;
+}
+.container .content a {
+  color: #000;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.container .content a:hover {
+  color: red;
+}
+
+.container-2 {
+  background-color: #74a6b0;
+}
+.container-2 h1 {
+  color: orange;
+}
+
+/*# sourceMappingURL=style.css.map */
