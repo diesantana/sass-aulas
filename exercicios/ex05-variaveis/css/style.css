@@ -1,0 +1,11 @@
+body {
+  background-color: #3ad713;
+}
+body .container {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #d3d7d2;
+  padding: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */

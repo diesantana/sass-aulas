@@ -1,0 +1,11 @@
+.box .botao {
+  background-color: #3498db;
+}
+.box .botao:hover {
+  background-color: #7ebce6;
+}
+.box h1 {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

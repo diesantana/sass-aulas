@@ -1,0 +1,11 @@
+.box{
+    .botao{
+        background-color: #3498db;
+        &:hover{
+            background-color: #7ebce6;
+        }
+    }
+    h1{
+        font-size: 20px;
+    }
+}

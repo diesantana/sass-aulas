@@ -1,0 +1,12 @@
+$bg-primary: #3ad713;
+$bg-secondary: #d3d7d2;
+
+body{
+    background-color: $bg-primary;
+    .container{
+        width: 500px;
+        margin: 0 auto;
+        background-color: $bg-secondary;
+        padding: 2rem;
+    }
+}
