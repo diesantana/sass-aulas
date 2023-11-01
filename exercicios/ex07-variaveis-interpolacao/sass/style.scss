@@ -1,0 +1,21 @@
+$tamanho-borda: 2px;
+$cor-borda: #e74c3c;
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    .elemento-borda{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 250px;
+        height: 250px;
+
+        // As duas abordagens são válidas e produzem o mesmo
+        border: #{$tamanho-borda} solid #{$cor-borda}; 
+        // border: $tamanho-borda solid $cor-borda;
+    }
+}

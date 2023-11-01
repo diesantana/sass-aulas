@@ -1,0 +1,15 @@
+.container{
+    $tamanho-font: 14px;
+    h1{
+        font-size: $tamanho-font;
+    }
+    .header{
+        $tamanho-font: 16px;
+        h1{
+            font-size: $tamanho-font;
+        }
+    }
+
+
+
+}
