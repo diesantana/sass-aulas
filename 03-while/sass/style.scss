@@ -1,0 +1,8 @@
+$contador: 1;
+@while $contador <= 3{
+    .item-#{$contador}{
+        background-color: rgb(87, 138, 87);
+        margin-bottom: 5px;
+    }
+    $contador: $contador +1;
+}
