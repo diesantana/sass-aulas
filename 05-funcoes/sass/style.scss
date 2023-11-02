@@ -1,0 +1,7 @@
+@function px-para-rem($valor-px, $tamanho-base: 16){
+    @return #{($valor-px / $tamanho-base)+rem};
+}
+
+p{
+    font-size: px-para-rem(15);
+}
