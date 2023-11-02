@@ -1,0 +1,23 @@
+$cores: red, green, blue, yellow;
+
+$contador: 1;
+@each $cor in $cores {
+    .item-#{$contador}{
+        background-color: $cor;
+        margin-bottom: 1rem;
+    }
+
+    $contador: $contador +1;
+}
+
+$fontes: (
+    "titulo": "Arial, sans-serif",
+    "texto": "Helvetica, sans-serif",
+    "link": "Verdana, sans-serif",
+);
+
+@each $nome, $font in $fontes{
+    .#{$nome} {
+        font-family: $font;
+    }
+}
