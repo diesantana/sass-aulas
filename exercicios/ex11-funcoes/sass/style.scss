@@ -1,0 +1,7 @@
+@function px-to-rem($valor-em-px, $tamanho-base : 16){
+    @return #{($valor-em-px / $tamanho-base)}rem;
+}
+
+.box{
+    font-size: px-to-rem(20);
+}

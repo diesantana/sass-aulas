@@ -1,0 +1,11 @@
+$tamanho : 100;
+@while $tamanho > 50{
+    .margin-#{$tamanho}{
+        margin: #{$tamanho}px;
+    }
+    $tamanho : $tamanho - 10;
+}
+
+.box{
+    background-color: red;
+}

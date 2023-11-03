@@ -1,0 +1,6 @@
+$tamanho-fonte : 12px, 14px, 16px, 18px, 20px;
+@for $i from 1 through length($tamanho-fonte){
+    .font-#{$i}{
+        font-size: nth($tamanho-fonte, $i);
+    }
+}

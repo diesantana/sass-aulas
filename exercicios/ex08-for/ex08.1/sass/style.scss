@@ -1,0 +1,10 @@
+$colunas: 12;
+@for $i from 1 through $colunas {
+    .col-#{$i}{
+        width: percentage($i / $colunas);
+    }
+}
+
+.box{
+    background-color: red;
+}
