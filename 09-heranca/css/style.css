@@ -1,0 +1,34 @@
+.classe1, .vermelho {
+  color: red;
+}
+
+.classe2, .vermelho {
+  background-color: black;
+}
+
+.pai, .filho, .erro {
+  color: red;
+}
+
+.filho, .erro {
+  background-color: black;
+}
+
+.erro {
+  padding: 0.5rem;
+}
+
+.c {
+  color: blue;
+}
+
+.c {
+  background-color: black;
+}
+
+.c {
+  border: 2px solid white;
+  padding: 0.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */

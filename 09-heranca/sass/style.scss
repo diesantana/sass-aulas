@@ -1,0 +1,42 @@
+.classe1{
+    color: red;
+}
+
+.classe2{
+    background-color: black;
+}
+
+// herança por multiplas diretivas
+.vermelho{
+    @extend .classe1, .classe2;
+}
+
+// herança por encadeamento de diretivas
+.pai{
+    color: red;
+}
+
+.filho{
+    @extend .pai;
+    background-color: black;
+}
+
+.erro{
+    @extend .filho;
+    padding: .5rem;
+}
+
+// placeholder "%", as classes não vão ser compliadas, serão utilziadas para fins de herança 
+
+%a{
+    color: blue;
+}
+%b{
+    @extend %a;
+    background-color: black;
+}
+.c{
+    @extend %b;
+    border: 2px solid white;
+    padding: .5rem;
+}
