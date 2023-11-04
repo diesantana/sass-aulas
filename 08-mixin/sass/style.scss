@@ -1,0 +1,12 @@
+@mixin titulo($color, $background: black) {
+    color: $color;
+    background-color: $background;
+    padding: 1rem;
+}
+
+h1{
+    @include titulo(blue, red);
+}
+h2{
+    @include titulo(green);
+}
