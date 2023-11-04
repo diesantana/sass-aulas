@@ -1,0 +1,18 @@
+// Diretivas de controle
+$cor: black;
+@if( $cor == white){
+    p{
+        background-color: black;
+        color: $cor;
+    }
+}@else if($cor == red){
+    p{
+        background-color: black;
+        color: $cor;
+    }
+}@else{
+    p{
+        background-color: aqua;
+        color: $cor;
+    }
+}
